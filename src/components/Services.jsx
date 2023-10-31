@@ -39,7 +39,7 @@ const Services = () => {
             {/* services card */}
             <div className='text-center mt-20 md:w-1/2 mx-auto'>
                 <h2 className='text-4xl text-neutralD_Grey font-semibold mb-2'>Manage your entire community in a single system</h2>
-                <p className='text-neutralGrey'>Who is Nextcent suitable for?
+                <p className='text-neutralGrey'>Who is Doogle suitable for?
 </p>
             </div>
 
