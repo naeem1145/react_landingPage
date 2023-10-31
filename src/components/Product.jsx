@@ -2,6 +2,12 @@ import React from 'react';
 import aboutImg from '../assets/icons/mobile-login.png';
 import maecenas from '../assets/icons/Tlogo.png';
 
+import company1 from '/src/assets/company1.png';
+import company2 from '/src/assets/company2.png';
+import company3 from '/src/assets/company3.png';
+import company4 from '/src/assets/company4.png';
+import company5 from '/src/assets/company5.png';
+import company6 from '/src/assets/company6.png';
 
 const Product = () => {
     return (
@@ -40,12 +46,12 @@ const Product = () => {
                             <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
                             <div>
                                 <div className='flex items-center flex-wrap gap-8'>
-                                    <img src="/src/assets/company1.png" alt=""className='cursor-pointer'/>
-                                    <img src="/src/assets/company2.png" alt=""className='cursor-pointer'/>
-                                    <img src="/src/assets/company3.png" alt=""className='cursor-pointer'/>
-                                    <img src="/src/assets/company4.png" alt=""className='cursor-pointer'/>
-                                    <img src="/src/assets/company5.png" alt=""className='cursor-pointer'/>
-                                    <img src="/src/assets/company6.png" alt=""className='cursor-pointer'/>
+                                    <img src={company1} alt=""className='cursor-pointer'/>
+                                    <img src={company2} alt=""className='cursor-pointer'/>
+                                    <img src={company3} alt=""className='cursor-pointer'/>
+                                    <img src={company4} alt=""className='cursor-pointer'/>
+                                    <img src={company5} alt=""className='cursor-pointer'/>
+                                    <img src={company6} alt=""className='cursor-pointer'/>
                                     <div className='flex items-center gap-8'>
                                         <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Meet all customers  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="11" className='inline-block' viewBox="0 0 17 11" fill="none">
 <path d="M12 9.39905L15.2929 6.10615C15.6834 5.71563 15.6834 5.08246 15.2929 4.69194L12 1.39905M15 5.39905L1 5.39905" stroke="#4CAF4F" stroke-width="1.5" stroke-linecap="round"/>
