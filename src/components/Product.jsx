@@ -11,10 +11,10 @@ import company6 from '/src/assets/company6.png';
 
 const Product = () => {
     return (
-        <div>
-              <div>
+        <div >
+           <div>
             {/* about text */}
-            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
+            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='product'>
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
                     <div>
                         <img src={aboutImg} alt="" />
@@ -35,7 +35,7 @@ const Product = () => {
                     </div>
 
                     {/* stats */}
-                    <div className='md:w-2/3 mx-auto'>
+                    <div className='md:w-2/3 mx-auto' id='testimonial'>
                     <div >
                         <p className='md:w-4/5 text-sm text-neutralGrey mb-8 leading-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere sint, illum nam voluptatum explicabo dolor 
                             consequuntur natus praesentium, atque possimus tempore a unde consequatur quo. Eum, dolores architecto 
@@ -45,7 +45,7 @@ const Product = () => {
                             <h5 className='text-brandPrimary text-xl font-semibold mb-2'>Tim Smith</h5>  
                             <p className='text-base text-neutralGrey mb-8'>British Dragon Boat Racing Association</p>
                             <div>
-                                <div className='flex items-center flex-wrap gap-8'>
+                                <div className='flex items-center flex-wrap gap-10'>
                                     <img src={company1} alt=""className='cursor-pointer'/>
                                     <img src={company2} alt=""className='cursor-pointer'/>
                                     <img src={company3} alt=""className='cursor-pointer'/>

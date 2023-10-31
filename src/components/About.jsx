@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             {/* about text */}
-            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8'>
+            <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-8' id='about'>
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
                     <div>
                         <img src={aboutImg} alt="" />
@@ -21,14 +21,14 @@ const About = () => {
             {/* company stats */}
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
                 <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
-                    <div className='md:w-1/2'>
+                    <div className='md:w-1/2 mb-8'>
                         <h2 className='text-4xl text-neutralD_Grey font-semibold mb-4 md:w-2/3'>Helping a local <br/><span className='text-brandPrimary'>business reinvent itself</span></h2>
                         <p>We reached here with our hard work and dedication</p>
                     </div>
 
                     {/* stats */}
                     <div className='md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12'>
-                        <div className='space-y-8'>
+                        <div className='space-y-8 mb-8'>
                             <div className='flex items-center gap-4'>
                                 <img src="/src/assets/icons/members.png" alt="" />
                                 <div>
